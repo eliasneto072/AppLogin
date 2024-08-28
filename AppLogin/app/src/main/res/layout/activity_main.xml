@@ -22,7 +22,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    
+    <ImageView
+        android:id="@+id/loginImage"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:src="@drawable/login_icon_foreground"
+        app:layout_constraintTop_toBottomOf="@+id/loginApp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
 
 
     
